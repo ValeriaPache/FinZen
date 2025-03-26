@@ -1,0 +1,35 @@
+.containerInitialSection {
+    width: 100vw;
+    height: 100vh;
+    background: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido desde arriba */
+    align-items: center;
+    gap: 40px; /* Ajusta la separación entre los elementos */
+    text-align: center;
+    padding-top: 200px; /* Empuja todo más abajo */
+}
+.logoFinzen{
+    width: 50%;
+    border-radius: 20px; 
+}
+.startButton{
+    width: 70%;
+    height: 40px;
+    background: #4723d6;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.startButton:hover {
+    background: #351aa5;
+}
+h4{
+    color: #747474;
+    margin: 0;
+    font-size: 14px;
+}

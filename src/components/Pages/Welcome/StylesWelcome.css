@@ -1,0 +1,27 @@
+.containerWelcome {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido desde arriba */
+    align-items: center;
+    gap: 40px; /* Ajusta la separación entre los elementos */
+    text-align: center;
+    padding-top: 100px; /* Empuja todo más abajo */
+}
+.logoFinzen{
+    width: 50%;
+    border-radius: 20px; 
+}
+button{
+    width: 70%;
+    height: 40px;
+    background: #4723d8;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
